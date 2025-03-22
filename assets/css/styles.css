@@ -29,3 +29,21 @@ nav ul li a {
 main {
     padding: 20px;
 }
+
+.progress {
+    height: 20px;
+    width: 200px;
+    background-color: #497be8;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    width: 200px;
+    background-color:#dbdbdb;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 8px;
+}
