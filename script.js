@@ -80,15 +80,15 @@ function generateStarRating(rating) {
 
 
 // Function to load work history from the JSON file
-async function loadWorkHistory() {
+async function loadExperience() {
     try {
-        const response = await fetch('work-history.json');
+        const response = await fetch('experience.json');
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
 
-        const workHistoryContainer = document.getElementById('work-history-container');
+        const experienceContainer = document.getElementById('experience-container');
 
         data.jobs.forEach(job => {
             // Create job elements
