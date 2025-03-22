@@ -59,8 +59,8 @@ body {
         padding-top: 24px;
     }
 
-    .work-history {
-        order: 6; /* Work History comes third */
+    .experience {
+        order: 6; /* Experience comes third */
     }
 
     .skills {
@@ -210,8 +210,8 @@ h2 {
     color: #333;
 }
 
-/* Work History */
-.work-history {
+/* Experience */
+.experience {
     margin-bottom: 40px;
 }
 
@@ -287,24 +287,24 @@ h2 {
     }
 }
 
-.work-history h3 {
+.experience h3 {
     font-size: 18px;
     font-weight: 400;
     color: #000;
     margin-bottom: 8px;
 }
 
-.work-history p {
+.experience p {
     font-size: 14px;
     color: #555;
 }
 
-.work-history ul {
+.experience ul {
     list-style: none;
     padding-left: 0;
 }
 
-.work-history ul li {
+.experience ul li {
     font-size: 14px;
     margin-bottom: 5px;
     color: #333;
@@ -312,7 +312,7 @@ h2 {
     padding-left: 15px;
 }
 
-.work-history ul li::before {
+.experience ul li::before {
     content: '•'; /* Custom bullet point */
     position: absolute;
     left: 0;
@@ -364,8 +364,8 @@ a:hover {
         order: 2; /* Summary comes second */
     }
 
-    .work-history {
-        order: 4; /* Work History comes third */
+    .experience {
+        order: 4; /* Experience comes third */
     }
 
     .skills {
@@ -385,7 +385,7 @@ a:hover {
     }
 
     /* Ensure all sections take full width on mobile */
-    .personal-info, .skills, .education, .summary, .work-history {
+    .personal-info, .skills, .education, .summary, .experience {
         flex-basis: 100%; /* Full width on mobile */
     }
 }
