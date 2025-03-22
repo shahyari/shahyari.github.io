@@ -18,10 +18,43 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>My Resume</h2>
-            <p>Download my resume: <a href="resume.pdf" download>Click Here</a></p>
+        <section class="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>UI/UX Designer - Company Name</h3>
+                <p>Jan 2022 - Present</p>
+                <p>Designed intuitive user experiences for web and mobile applications.</p>
+            </div>
+            <div class="job">
+                <h3>Graphic Designer - Another Company</h3>
+                <p>2018 - 2022</p>
+                <p>Created branding materials and marketing campaigns.</p>
+            </div>
         </section>
+        <aside class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <p>UI/UX Design</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>HTML & CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>Adobe Creative Suite</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+        </aside>
+        <aside class="resume-download">
+            <h2>Download CV</h2>
+            <button onclick="window.location.href='resume_en.pdf'">Download English CV</button>
+            <button onclick="window.location.href='resume_de.pdf'">Download German CV</button>
+        </aside>
     </main>
 </body>
 </html>
