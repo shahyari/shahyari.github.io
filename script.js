@@ -138,7 +138,7 @@ async function loadExperience() {
 
                 jobDiv.appendChild(appLinksDiv);
             }
-            workHistoryContainer.appendChild(jobDiv);
+            experienceContainer.appendChild(jobDiv);
         });
     } catch (error) {
         alert(`An error occurred while loading work history: ${error.message}`);
