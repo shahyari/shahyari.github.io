@@ -1,0 +1,7 @@
+{
+    "projects": [
+        { "name": "Horizon", "description": "iOS productivity app." },
+        { "name": "Radio TV App", "description": "Smart TV interface for radio content." },
+        { "name": "Portfolio", "description": "Personal website built with GitHub Pages." }
+    ]
+}
