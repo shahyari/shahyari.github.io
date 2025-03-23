@@ -6,28 +6,57 @@ body {
 }
 
 header {
-    background-color: #333;
     color: white;
-    padding: 10px;
 }
 
 nav ul {
+    background-color: #497be8;
     list-style: none;
     padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    float: left;
+    border-right: 1px solid #bbb;
 }
 
 nav ul li a {
     color: white;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #3060c7;
+}
+
+button {
+    padding: 8px;
+    border-radius: 16px;
+    color: white;
+    background-color: #497be8;
+}
+
+button:hover {
+    background-color: #3060c7;
 }
 
 main {
     padding: 20px;
+    margin: auto;
+    background-color: #d6d6d6;
+    text-align: left;
+}
+
+aside {
+    padding: 20px;
+    margin: 2px;
+    text-align: left;
 }
 
 .progress {
@@ -44,6 +73,13 @@ main {
     border-radius: 10px;
 }
 
-.button {
-    padding: 8px;
+/* Used for active state in the navBar */
+.active {
+    background-color: #5e91ff;
+    color: white;
+    text-decoration: underline;
+}
+
+.experience {
+
 }
