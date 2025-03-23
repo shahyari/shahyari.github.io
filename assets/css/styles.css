@@ -6,7 +6,9 @@ body {
 }
 
 header {
-    color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -36,8 +38,10 @@ nav ul li a:hover {
 }
 
 button {
+    width: 200px;
     padding: 8px;
     border-radius: 16px;
+    margin-bottom: 8px;
     color: white;
     background-color: #497be8;
 }
@@ -48,14 +52,23 @@ button:hover {
 
 main {
     padding: 20px;
-    margin: auto;
-    background-color: #d6d6d6;
+    margin: 20px;
+    background-color: white;
     text-align: left;
+    display: flex;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f6f6f6;
+    border-radius: 24px;
+    width: 100%;
 }
 
 aside {
     padding: 20px;
-    margin: 2px;
+    margin: 20px;
     text-align: left;
 }
 
@@ -78,8 +91,4 @@ aside {
     background-color: #5e91ff;
     color: white;
     text-decoration: underline;
-}
-
-.experience {
-
 }
